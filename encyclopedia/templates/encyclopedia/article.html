@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock title %}
+
+{% block body %}
+    <article>
+        {{ article|safe }}
+    </article>
+
+<<<<<<< Updated upstream:encyclopedia/templates/encyclopedia/article.html
+    <br>
+    <footer>
+        <a href="{% url 'encyclopedia:edit' title=title%}">Edit this article</a>
+    </footer>
+{% endblock body %}
+=======
+{% endblock body %}
+>>>>>>> Stashed changes:wiki/encyclopedia/templates/encyclopedia/article.html
